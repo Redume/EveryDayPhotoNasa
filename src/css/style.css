@@ -3,6 +3,11 @@ body {
 
 }
 
+* {
+    pointer-events: none;
+	user-select: none;
+}
+
 #main-menu-text {
     text-align: center;
     color: #a3a2a2;
