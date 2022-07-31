@@ -1,0 +1,13 @@
+body {
+    background-image: url("../images/background.jpg");
+
+}
+
+#main-menu-text {
+    text-align: center;
+    color: #a3a2a2;
+}
+
+#menu {
+    margin-top: -3%;
+}
