@@ -5,10 +5,18 @@
     <title>EveryDayPhotoNasa</title>
     <link rel="icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="/eel.js"></script>
 </head>
 <body>
+    <script>
+            eel.expose(photo_name)
+            function photo_name(name) {
+            console.log(name)
+            document.getElementById('qr_img').src = document.getElementById('qr_img').src + name; <!-- Добавляем элементу с айди qr_img к src название файла  -->
+            }
+    </script>
     <h1 id="main-menu-text">Главное меню</h1>
-
+    <img id="qr_img" src="../images/"/> <!-- к photo/ мы прибавили название файла -->
     <img src="../images/nasa.svg" id="menu" alt="nasa">
 
 </body>

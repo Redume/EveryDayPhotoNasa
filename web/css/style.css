@@ -16,3 +16,8 @@ body {
 #menu {
     margin-top: -3%;
 }
+
+#qr_img {
+    width: 250px;
+    length: 250px;
+}
