@@ -1,6 +1,5 @@
 body {
     background-image: url("../images/background.jpg");
-
 }
 
 * {
@@ -19,5 +18,4 @@ body {
 
 #qr_img {
     width: 250px;
-    length: 250px;
 }
